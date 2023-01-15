@@ -220,7 +220,7 @@ footer p{
     .quick-list-images {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* grid-gap: 0; */
+        grid-gap: 30px;
         margin-right: 0;
     }
 
@@ -235,7 +235,9 @@ footer p{
     }
 
     .quick-list-text {
+        order: -1;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     /* features section */
@@ -274,7 +276,7 @@ footer p{
     }
     .sponsors img{
         margin-bottom: 60px;
-        width: 50%;
+        width: 25%;
     }
     
     footer{
