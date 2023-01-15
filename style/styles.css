@@ -105,7 +105,16 @@ button {
     display: flex;
 }
 
+#slice{
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background-color: #FF900E;
+    
+}
+
 .features-text-section{
+    margin-left: 20px;
     margin-right: 80px;
 }
 
@@ -117,6 +126,9 @@ button {
 .features-text-section p{
     color: #727272;
     font-size: 12px;   
+}
+.features-heading-text{
+    margin-left: 16px;
 }
 
 .features-component {
@@ -174,6 +186,30 @@ button {
 .activity:hover img{
     transform: rotate(360deg);
     transition: transform 1.5s;
+}
+
+/* architecture section */
+
+#achitecture-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: orange;
+}
+.architectures{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.achitecture img{
+    width: 100%;
+    height: 75%;
+}
+.achitecture h1{
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 4px 2px blue;
 }
 
 /* sponsor section  */
@@ -268,6 +304,14 @@ footer p{
     }
     .activity{
         width: 50%;
+    }
+     
+    /* achitecture-section */
+
+    .architectures{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
     }
 
     .sponsors{
